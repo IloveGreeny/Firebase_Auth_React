@@ -1,5 +1,6 @@
-import React from 'react';
+
 import { UserAuth } from '../../Context/AuthContext';
+
 
 export  default  function Account ()  {
   const { logOut, user } = UserAuth();
