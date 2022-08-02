@@ -9,7 +9,7 @@ import { auth } from '../FirebaseConfig/firebase';
 
 const AuthContext = createContext();
 
-export const AuthContextProvider = ({ children }) => {
+export default function AuthContextProvider ({ children })  {
   const [user, setUser] = useState({});
 
   const googleSignIn = () => {
@@ -38,6 +38,6 @@ export const AuthContextProvider = ({ children }) => {
   );
 };
 
-export const UserAuth = () => {
+export default function UserAuth () {
   return useContext(AuthContext);
 };
