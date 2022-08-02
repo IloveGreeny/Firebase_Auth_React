@@ -1,13 +1,10 @@
-
-import { Route, Routes } from 'react-router-dom';
 import Navbar from './Components/Navbar/Navbar';
 import Protected from './Components/Protected/Protected';
-import { AuthContextProvider } from './Context/AuthContext';
 import Account from './Components/Account/Account';
 import Home from './Components/Home/Home';
 import Signin from './Components/SignIn/Signin';
-
-
+import { AuthContextProvider } from './Context/AuthContext';
+import { Route, Routes } from 'react-router-dom';
 export default function App() {
   return (
     <div>
