@@ -1,1 +1,1 @@
-//yout firebase config
+your firebase config
