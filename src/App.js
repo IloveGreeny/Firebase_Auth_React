@@ -1,4 +1,3 @@
-
 import { Route, Routes } from 'react-router-dom';
 import Navbar from './Components/Navbar/Navbar';
 import Protected from './Components/Protected/Protected';
@@ -29,5 +28,14 @@ export default function App() {
     </div>
   );
 }
+
+
+
+
+
+
+
+
+
 
 
