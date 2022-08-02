@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { GoogleButton } from 'react-google-button';
-import { UserAuth } from '../../Context/AuthContext';
+import  UserAuth  from '../../Context/AuthContext';
 import { useNavigate } from 'react-router-dom';
 
 export  default function Signin  ()  {
@@ -30,5 +30,3 @@ export  default function Signin  ()  {
     </div>
   );
 };
-
-
